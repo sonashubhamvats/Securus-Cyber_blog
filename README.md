@@ -22,7 +22,7 @@ Each user gets posts directly on their <b>User's Feed</b> related to people they
 
 Creating a community based app, connectivity is the most important feature for the project, users can find their friends and other users, view their profile and posts, and follow them for future updates.
 
-<img src="Screenshots/5.jpg" width="200" /> <img src="Screenshots/6.jpg" width="200" />
+<img src="Screenshots/5.jpeg" width="200" /> <img src="Screenshots/6.jpg" width="200" />
 
 ### Sharing stories:
 
