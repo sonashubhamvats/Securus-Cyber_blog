@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285057472896",
+    "project_id": "securus-bf653",
+    "storage_bucket": "securus-bf653.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285057472896:android:17462fd3ed609e6a41c965",
+        "android_client_info": {
+          "package_name": "com.example.securus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285057472896-3esaf1aplbq7ufek0ois3rfesrmii5dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZNKhPbUnny2dWOeg-p30aAj1ORZfT_tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285057472896-3esaf1aplbq7ufek0ois3rfesrmii5dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

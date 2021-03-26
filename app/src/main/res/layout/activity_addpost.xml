@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Addpost">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Create a new post"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="#000"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/topicPostAdd"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Topic"
+                android:inputType="textPersonName"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/postAdd"
+                android:layout_width="match_parent"
+                android:layout_height="325dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Write your story...."
+                android:inputType="textMultiLine"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/linkAdd"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Any Specific links that u came across??"
+                android:inputType="textPersonName"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/submitPostButtonAdd"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-medium"
+                android:background="@drawable/my_border_red"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
